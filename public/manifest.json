@@ -1,0 +1,15 @@
+{
+  "short_name": "gdk-mws-satyadara",
+  "name": "Mobile Web Specialist - Satya Syahputra",
+  "icons": [
+    {
+      "src": "/assets/images/pikachu.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "white",
+  "Scope": "/",
+  "display": "standalone"
+}

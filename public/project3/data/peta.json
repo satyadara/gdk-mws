@@ -1,0 +1,49 @@
+{
+  "places": [
+    {
+      "lokasi": [
+        -7.798620,
+        110.402913
+      ],
+      "sponsor": "Jalan Depan JEC",
+      "gambar": "images/img-1.jpg",
+      "review": "Jalan terbaik di JEC"
+    },
+    {
+      "lokasi": [
+        -7.800063,
+        110.400512
+      ],
+      "sponsor": "Tempat tinggal dong",
+      "gambar": "images/img-2.jpg",
+      "review": "Tempat tinggal nyaman"
+    },
+    {
+      "lokasi": [
+        -7.800131,
+        110.400200
+      ],
+      "sponsor": "Burjoan",
+      "gambar": "images/img-3.jpg",
+      "review": "Makanan tiap hari"
+    },
+    {
+      "lokasi": [
+        -7.800401,
+        110.400569
+      ],
+      "sponsor": "Laundry",
+      "gambar": "images/img-4.jpg",
+      "review": "Nyuci nyuci nyucii"
+    },
+    {
+      "lokasi": [
+        -7.799065,
+        110.404085
+      ],
+      "sponsor": "Halaman JEC",
+      "gambar": "images/img-5.jpg",
+      "review": "Halaman terbaik di JEC"
+    }
+  ]
+}

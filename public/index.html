@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Satyadara</title>
+    <style>
+        a {
+            color: black;
+        }
+    </style>
+    <link rel="manifest" href="/manifest.json">
+</head>
+<body>
+<ol>
+    <li><a href="project1/add-two-number.html">Add Two number (Sudah selesai)</a></li>
+    <li><a href="project1/grid.html">GRID (Sudah selesai)</a></li>
+    <li><a href="project2/peta.html">PETA (Sudah selesai)</a></li>
+    <li><a href="project3/peta.html">PETA Fetch JSON (Sudah selesai)</a></li>
+    <li>Offline Apps Implemented (Sudah selesai)</li>
+    <li>Add to Home Screen (Sudah Selesai)</li>
+</ol>
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+            navigator.serviceWorker.register('sw.js')
+                .then(reg => console.log('SW terdaftar', reg))
+                .catch(err => console.log('SW Gagal: ', err));
+        });
+    }
+</script>
+</body>
+</html>

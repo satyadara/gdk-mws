@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initialscale=1">
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+            grid-gap: 5px;
+            width: 100%;
+            margin: 50px 0px;
+        }
+
+        .cell-1 {
+            background: mediumvioletred;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .cell-2 {
+            background: mediumorchid;
+        }
+
+        .cell-3 {
+            background: mediumaquamarine;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+
+        .cell-4 {
+            background: mediumslateblue;
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+
+        .cell-5 {
+            background: mediumspringgreen;
+        }
+
+        .cell-6 {
+            background: mediumpurple;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class='cell-1'>1</div>
+    <div class='cell-2'>2</div>
+    <div class='cell-3'>3</div>
+    <div class='cell-4'>4</div>
+    <div class='cell-5'>5</div>
+    <div class='cell-6'>6</div>
+</div>
+</body>
+</html>
+
